@@ -1,0 +1,14 @@
+
+{
+    "addons": [
+      {
+        "name": "My Add-on",
+        "slug": "my-addon",
+        "version": "1.0.0",
+        "url": "https://github.com/eelitedesire/my-addon",
+        "arch": ["amd64"],
+        "image": "eelitedesire/my-addon:1.0.0"
+      }
+    ]
+  }
+  
