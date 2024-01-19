@@ -1,14 +1,13 @@
-
 {
-    "addons": [
-      {
-        "name": "My Add-on",
-        "slug": "my-addon",
-        "version": "1.0.0",
-        "url": "https://github.com/eelitedesire/my-addon",
-        "arch": ["amd64"],
-        "image": "eelitedesire/my-addon:1.0.0"
-      }
-    ]
+    "name": "My Add-on",
+    "version": "1.0.0",
+    "slug": "my-addon",
+    "description": "Calculate the sum of two numbers.",
+    "arch": ["armhf", "armv7", "amd64", "aarch64"],
+    "image": "elitedesire/my-addon:1.0.0",
+    "url": "https://github.com/eelitedesire/my-addon",
+    "startup": "application",
+    "stdin": true,
+    "stdin_start": true
   }
   
